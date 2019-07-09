@@ -1,2 +1,1 @@
-# Problem0
-
+# frozen_string_literal: true
