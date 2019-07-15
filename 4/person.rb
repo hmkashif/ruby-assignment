@@ -14,9 +14,13 @@ class Person
     @age = age
   end
 
+  def print_age
+    puts @age
+  end
+
   private
 
-  def print_age
-    @age
+  def update_age(new_age)
+    @age = new_age
   end
 end
