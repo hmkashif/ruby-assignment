@@ -6,4 +6,4 @@ path = gets.chomp
 puts "File name: #{File.basename(path)}"
 puts "Base name: #{File.basename(path, '.*')}"
 puts "Extension: #{File.extname(path)}"
-puts "Path name: #{File.expand_path(path)}"
+puts "Path name: #{File.dirname(path)}"
